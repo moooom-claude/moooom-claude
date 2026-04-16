@@ -1,8 +1,14 @@
 # 🌍 Moooom! — World Moms for Claude Code
 
-> Because every developer needs their mom yelling at them to drink water, eat food, and sit up straight.
+<p align="center">
+  <img src="logo.svg" alt="Moooom! Logo" width="280" />
+</p>
 
-A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill that summons moms from 10 different cultures to nag you — with love.
+<p align="center">
+  <em>Because every developer needs their mom yelling at them to drink water, eat food, and sit up straight.</em>
+</p>
+
+A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin that summons moms from 10 different cultures to nag you — with love.
 
 ## Moms
 

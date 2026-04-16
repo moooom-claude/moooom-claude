@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B9D;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FF8A65;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFB74D;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="heart" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF1744;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D50000;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000033"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="248" fill="url(#bg)" filter="url(#shadow)"/>
+  <circle cx="256" cy="256" r="240" fill="none" stroke="#ffffff22" stroke-width="3"/>
+
+  <!-- Globe lines (subtle) -->
+  <ellipse cx="256" cy="256" rx="140" ry="140" fill="none" stroke="#ffffff20" stroke-width="1.5"/>
+  <ellipse cx="256" cy="256" rx="90" ry="140" fill="none" stroke="#ffffff15" stroke-width="1"/>
+  <ellipse cx="256" cy="256" rx="140" ry="90" fill="none" stroke="#ffffff15" stroke-width="1"/>
+  <line x1="116" y1="256" x2="396" y2="256" stroke="#ffffff12" stroke-width="1"/>
+  <line x1="256" y1="116" x2="256" y2="396" stroke="#ffffff12" stroke-width="1"/>
+
+  <!-- Flags in a circle around the heart -->
+  <g font-size="28" text-anchor="middle" dominant-baseline="central">
+    <!-- Top -->
+    <text x="256" y="100">🇹🇷</text>
+    <!-- Top-right -->
+    <text x="348" y="120">🇺🇸</text>
+    <!-- Right -->
+    <text x="400" y="200">🇬🇧</text>
+    <!-- Bottom-right -->
+    <text x="400" y="310">🇲🇽</text>
+    <!-- Bottom -->
+    <text x="348" y="390">🇩🇪</text>
+    <!-- Bottom -->
+    <text x="256" y="410">🇮🇹</text>
+    <!-- Bottom-left -->
+    <text x="164" y="390">🇪🇸</text>
+    <!-- Left -->
+    <text x="112" y="310">🇰🇷</text>
+    <!-- Top-left -->
+    <text x="112" y="200">🇯🇵</text>
+    <!-- Top -->
+    <text x="164" y="120">🇬🇷</text>
+  </g>
+
+  <!-- Central heart -->
+  <g transform="translate(256, 240)" filter="url(#glow)">
+    <path d="M0,-45 C-25,-75 -70,-75 -70,-35 C-70,0 -35,25 0,55 C35,25 70,0 70,-35 C70,-75 25,-75 0,-45Z"
+          fill="url(#heart)" stroke="#fff" stroke-width="3"/>
+  </g>
+
+  <!-- Terminal cursor in heart -->
+  <text x="256" y="245" font-family="monospace" font-size="28" font-weight="bold"
+        fill="#fff" text-anchor="middle" dominant-baseline="central">&gt;_</text>
+
+  <!-- "Moooom!" text -->
+  <text x="256" y="330" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="48" font-weight="800" fill="#fff" text-anchor="middle"
+        letter-spacing="2" filter="url(#shadow)">
+    Moooom!
+  </text>
+
+  <!-- Subtitle -->
+  <text x="256" y="362" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="14" fill="#ffffff99" text-anchor="middle" letter-spacing="4">
+    WORLD MOMS FOR CLAUDE CODE
+  </text>
+</svg>
