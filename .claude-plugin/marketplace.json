@@ -1,0 +1,29 @@
+{
+  "name": "moooom-claude",
+  "owner": {
+    "name": "Mehmet Turac",
+    "url": "https://github.com/mturac"
+  },
+  "metadata": {
+    "description": "World Moms for Claude Code — 10 cultures of mom nagging you to drink water, eat food, and sit up straight.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "moooom",
+      "description": "Summon moms from 10 cultures (TR, US, UK, MX, DE, IT, ES, KR, JP, GR) to nag you with love — break reminders, food alerts, bug comfort, and coding wisdom.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mehmet Turac",
+        "url": "https://github.com/mturac"
+      },
+      "source": "./plugins/moooom",
+      "homepage": "https://github.com/moooom-claude/moooom-claude",
+      "repository": "https://github.com/moooom-claude/moooom-claude",
+      "license": "MIT",
+      "keywords": ["fun", "mom", "break", "wellness", "multilingual", "motivation"],
+      "category": "wellness",
+      "tags": ["fun", "break-reminder", "multilingual", "motivation", "wellness"]
+    }
+  ]
+}

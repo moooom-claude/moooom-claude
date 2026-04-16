@@ -21,22 +21,28 @@ A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill that summo
 
 ## Installation
 
-### Quick Install (symlink)
+### Plugin Install (recommended)
 
 ```bash
-# Clone
-git clone https://github.com/mturac/moooom-claude.git ~/.claude/skills/moooom
+# 1. Add marketplace
+claude plugin marketplace add moooom-claude/moooom-claude
 
-# Or if you already have a skills directory structure:
-ln -s /path/to/moooom-claude ~/.claude/skills/moooom
+# 2. Install plugin
+claude plugin install moooom
+
+# 3. Done! Type /moooom in Claude Code
 ```
 
 ### Manual Install
 
-1. Copy `SKILL.md` to `~/.claude/skills/moooom/SKILL.md`
-2. (Optional) Copy `moooom-hook.sh` to `~/.claude/scripts/moooom-hook.sh`
+```bash
+# Copy skill directly
+git clone https://github.com/moooom-claude/moooom-claude.git /tmp/moooom-tmp
+cp -r /tmp/moooom-tmp/plugins/moooom/skills/moooom ~/.claude/skills/moooom
+# Clean up the temp clone when done
+```
 
-That's it. Restart Claude Code and `/moooom` is ready.
+Restart Claude Code and `/moooom` is ready.
 
 ## Usage
 
@@ -165,6 +171,6 @@ MIT — Mom would want you to share.
 
 ---
 
-Made with ❤️ by [@mturac](https://github.com/mturac)
+Made with ❤️ by [@mturac](https://github.com/mturac) | [moooom-claude](https://github.com/moooom-claude)
 
 *"Kuzum su ic!" — Every Turkish Mom, Always*

@@ -1,0 +1,13 @@
+{
+  "name": "moooom",
+  "version": "1.0.0",
+  "description": "Summon moms from 10 cultures to nag you with love — break reminders, food alerts, bug comfort, and coding wisdom.",
+  "author": {
+    "name": "Mehmet Turac",
+    "url": "https://github.com/mturac"
+  },
+  "homepage": "https://github.com/moooom-claude/moooom-claude",
+  "repository": "https://github.com/moooom-claude/moooom-claude",
+  "license": "MIT",
+  "keywords": ["fun", "mom", "break", "wellness", "multilingual"]
+}
