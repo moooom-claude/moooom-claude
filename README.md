@@ -152,6 +152,10 @@ Don't worry, mana will fix it. Try again.
 ❤️ Η μάνα σ'αγαπάει, μωρό μου! 🧿
 ```
 
+## Inspiration
+
+This project was inspired by **Gorsev Salci Bayrakli** — a real mom whose energy, love, and world-class nagging powers proved that every developer (and every human) needs their mom checking in on them. Thanks to her, 10 moms from around the world are now here to make sure you drink water, eat properly, and sit up straight.
+
 ## Why?
 
 Because coding is hard, and sometimes you just need your mom to tell you to drink water and sit up straight. In 10 languages.
