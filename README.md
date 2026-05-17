@@ -184,3 +184,17 @@ MIT — Mom would want you to share.
 Made with ❤️ by [@mturac](https://github.com/mturac) | [moooom-claude](https://github.com/moooom-claude)
 
 *"Kuzum su ic!" — Every Turkish Mom, Always*
+
+---
+
+## Part of [mturac/tools](https://github.com/mturac/tools)
+
+This project is part of an open-source toolkit for AI-augmented engineering — Claude Code plugins, MCP servers, security scanners, schedulers, and dev-productivity utilities. See the [hub](https://github.com/mturac/tools) for the full list.
+
+Install every Claude Code plugin from one place:
+
+```text
+/plugin marketplace add mturac/claude-plugin-marketplace
+/plugin install moooom
+```
+
